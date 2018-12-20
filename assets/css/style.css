@@ -1,0 +1,89 @@
+/* CSS Document RPS Multiplayer */
+body {
+  font:12px arial;
+  color: #222;
+  text-align:center;
+  padding:35px;
+  /*background-image: url("../images/RPS.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.container 
+{ background-color: olive;padding-bottom: 40px;}
+  
+
+form, p, span {
+  margin:0;
+  padding:0; }
+
+input { font:12px arial; }
+
+a {
+  color:#0000FF;
+  text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+  margin:0 auto;
+  padding-bottom:25px;
+  background:tan;
+  width:504px;
+  border:1px solid #ACD8F0; }
+
+  #wrapper1,#wrapper2,#wrapper3{
+  background:tan;
+  width:300px;
+  border:1px solid #ACD8F0;
+  margin:31px auto;
+  padding-bottom:25px;
+  height:200px;
+  font:18px bolder;
+  }
+  
+  #wrapper1{
+    float: left;
+  }
+  #wrapper2{
+    float: right;
+  }
+  #wrapper3{
+    float:left;
+    margin-left: 16px
+  }
+
+#loginform { padding-top:18px;margin-top: 10px; }
+
+#loginform p { margin: 5px; }
+
+#chatbox {
+  text-align:left;
+  margin:0 auto;
+  margin-bottom:25px;
+  padding:10px;
+  background:#fff;
+  height:146px;
+  width:430px;
+  border:1px solid #ACD8F0;
+  overflow:auto; }
+
+#usermsg {
+  width:395px;
+  border:1px solid #ACD8F0;
+  height: 28px;
+}
+
+#wrapper { margin-top: 271px; margin-bottom: 5px;}
+
+#submit { width: 60px; }
+
+.error { color: #ff0000; }
+
+#menu { padding:12.5px 25px 25px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }
+
+.msgln { margin:0 0 2px 0; }
